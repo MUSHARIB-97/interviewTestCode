@@ -30,12 +30,13 @@ for (let i = 0; i <= secondLargest.length; i++) {
 }
 
 // console.log("Sorted Array :", secondLargest);
+// console.log("Largest Value:", secondLargest[secondLargest.length - 1]);
 // console.log("Second Largest Value:", secondLargest[secondLargest.length - 2]);
 
 // Reverse an string
 let str = "Strings";
 let reverseStr = "";
-for (let i = str.length - 1; i > 0; i--) {
+for (let i = str.length - 1; i >= 0; i--) {
   reverseStr += str[i];
 }
 
@@ -120,7 +121,7 @@ for (let i = 0; i < zeroCount; i++) {
 
 // String is isPalindrome
 
-let palindromeStr = "level"; // test string
+let palindromeStr = "levels"; // test string
 let isPalindrome = true; // assume karte hain string palindrome hai
 
 let len = palindromeStr.length; // string ka length nikalte hain
@@ -170,12 +171,12 @@ for (let i = 0; i < arr.length; i++) {
 let concurrence = "constantinapole";
 let obj = {};
 
-for (let i = 0; i < value.length; i++) {
+for (let i = 0; i < concurrence.length; i++) {
   let occ = concurrence[i];
   obj[occ] = (obj[concurrence] || 0) + 1;
 }
 
-// console.log(obj);
+console.log(obj);
 
 // pyramid
 let rows = 5;
@@ -211,3 +212,9 @@ for (let i = 1; i <= fiboNum; i++) {
   n2 = n3;
   // console.log(n1);
 }
+
+// for (let i = 1; i <= 3; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, i * 1000);
+// }
