@@ -1,0 +1,3 @@
+1) Hoisting?
+Ans) JavaScript hoisting ka matlab hota hai ke compiler variables aur functions ko execution se pehle le jata hai.
+lekin value assign nahi hoti, sirf declaration hoist hoti hai 

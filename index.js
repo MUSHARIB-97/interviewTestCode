@@ -160,11 +160,27 @@ for (let i = 0; i < arr.length; i++) {
 
   // agar duplicate nahi hai, to add karo
   if (!isDuplicate) {
-    newArr[newArr.length] = arr[i]; // push element manually
+    newArr.push(arr[i]);
   }
 }
 
 // console.log("Unique Array =>", newArr);
+
+let dublicateCount = {};
+
+for (let i = 0; i < arr.length; i++) {
+  let count = 0;
+
+  for (let j = 0; j < arr.length; j++) {
+    if (arr[i] === arr[j]) {
+      count++;
+    }
+  }
+
+  dublicateCount[arr[i]] = count;
+}
+
+console.log(dublicateCount);
 
 // concurrence
 
