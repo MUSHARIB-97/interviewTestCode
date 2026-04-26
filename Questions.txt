@@ -1,3 +1,8 @@
 1) Hoisting?
 Ans) JavaScript hoisting ka matlab hota hai ke compiler variables aur functions ko execution se pehle le jata hai.
 lekin value assign nahi hoti, sirf declaration hoist hoti hai 
+
+2) Athentication = who you are. Authorization what you are allowed to do
+
+3) JWT user ki identity verify kerne ke lia hota hai, smart token that carries your information inside it, server ko session store nhi karna padta Token main he user ki info hoti hai,
+fast, scalable,Stateless, Har protected API request main token bheja jaata hai, 1. Access Token = 👉 Short expiry 👉 Protected routes access ke liye, 2. Refresh Token = 👉 Long expiry 👉 Naya access token lane ke liye
